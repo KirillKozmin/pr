@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #000000;
+  height: 38px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 38px;
+  width: 1440px;
+}
+
+.header__start {
+  color: #ffffff;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  align-content: stretch;
+}
+
+.header__cross {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  width: 13.13px;
+  height: 13.13px;
+  text-decoration: none;
+  margin-left: 525px;
+}
+
+.Sign_Up_Now {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.section__one {
+  width: 1240px;
+  height: 48px;
+  margin: 24px auto;
+}
+
+.section__one-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  width: 1240px;
+  height: 48px;
+}
+
+.check__mark {
+  margin-left: 3px;
+}
+
+.section__one-container h2 {
+  font-size: 32px;
+}
+
+.section__one-container a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.section__one-container ul {
+  display: flex;
+  gap: 24px;
+}
+
+.search-wrapper {
+  width: 577px;
+  padding: 12px 16px;
+}
+
+.search {
+  width: 100%;
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 62px;
+  background-color: #f0f0f0;
+  border: #f0f0f0;
+  padding-left: 52px;
+}
+
+.search-icon {
+  position: absolute;
+  margin-left: 16px;
+  margin-top: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.main__icons {
+  gap: 14px;
+  width: 62px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.section__two-container_line {
+  width: 1240px;
+}
+
+.section__two-line {
+  width: 1240px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: 130px;
+}
+
+.section__two-navigation_chain {
+  display: flex;
+  width: 123px;
+  height: 22px;
+  gap: 12px;
+  margin-top: 24px;
+  margin-left: 130px;
+}
+
+.section__two-container {
+  width: 295px;
+  height: 1220px;
+  border-radius: 20px;
+  padding: 20px 24px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: 130px;
+  margin-top: 24px;
+}
+
+.section__two-filter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section__two-filter h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 1);
+}
+
+.section__two-filter_line {
+  width: 247px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 24px;
+}
+
+.section__two-filter_catalog {
+  width: 247px;
+  height: 160px;
+  margin-top: 24px;
+}
+
+.section__two-filter_clothes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 247px;
+  height: 16px;
+}
+
+.section__two-filter_title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.section__two-filter_Price-common {
+  width: 247px;
+  height: 90px;
+}
+
+.section__two-filter_Price {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.section__two-filter_Price p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.section__two-filter_colors-common {
+  width: 247px;
+  height: 137px;
+}
+
+.section__two-filter_colors {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.section__two-filter_colors p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.section__two-filter_Size-common {
+  width: 247px;
+  height: 274px;
+}
+
+.section__two-filter_Size {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.section__two-filter_Size p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.section__one-container_Size p {
+  width: 89px;
+  height: 39px;
+  padding: 10px 20px;
+  border-radius: 62px;
+  gap: 12px;
+  display: flex;
+}
+
+.section__two-filter_Dress-Style-common {
+  width: 247px;
+  height: 171px;
+}
+
+.section__two-filter_Dress-Style {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.section__two-filter_Dress-Style p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.section__two-btns {
+  width: 247px;
+  height: 48px;
+  padding: 16px 54px;
+  gap: 12px;
+  border-radius: 62px;
+  background-color: rgba(0, 0, 0, 1);
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 24px;
+}

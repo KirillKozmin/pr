@@ -58,6 +58,10 @@ li {
   height: 48px;
 }
 
+.check__mark{
+  margin-left: 3px;
+}
+
 .section__one-container h2 {
   font-size: 32px;
 }
@@ -142,7 +146,8 @@ li {
   padding: 16px 54px;
   border-radius: 62px;
   color: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid #000000;
+  background-color: #000000;
   gap: 12px;
 }
 
@@ -331,6 +336,7 @@ li {
   border-radius: 62px;
   gap: 12px;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
 }
 
 .section__four-line {
@@ -577,6 +583,7 @@ li {
   margin-top: 170px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   position: absolute;
   z-index: -1;
 }
@@ -624,17 +631,37 @@ li {
 }
 
 .footer__information li {
+  display: flex;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   color: rgba(0, 0, 0, 0.6);
-  margin-top: 26px;
+  margin-top: 20px;
+}
+
+.footer__container-line {
+  width: 1240px;
 }
 
 .footer__line {
   width: 1240px;
   height: 0px;
-  margin-top: 367px;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  rotate: 0 deg;
+  margin-top: 50px;
+}
+
+.footer__end {
+  height: 30.03px;
+  display: flex;
+  align-items: flex-start;
+  gap: 640px;
+  margin-bottom: 20px;
+}
+
+.footer__end p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 0.6);
 }
