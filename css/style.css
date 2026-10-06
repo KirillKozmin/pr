@@ -382,6 +382,8 @@ li {
   padding-top: 25px;
   padding-left: 36px;
   background-size: cover;
+  color: #000000;
+  text-decoration: none;
 }
 
 .container__five-img_two {

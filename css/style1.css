@@ -155,6 +155,49 @@ li {
   margin-top: 24px;
 }
 
+.section__two-filter_colors {
+  max-width: 247px;
+  max-height: 27px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.color-selector {
+  max-width: 247px;
+  max-height: 90px;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.colors__one {
+  max-width: 247px;
+  max-height: 37px;
+  display: flex;
+  gap: 15px;
+}
+
+.colors__two {
+  max-width: 247px;
+  max-height: 37px;
+  margin-top: 16px;
+  display: flex;
+  gap: 15px;
+}
+
+.colors__two img{
+  max-width: 16px;
+  max-height: 16px;
+  margin: 10px 10px;
+}
+
+.color {
+  width: 37px;
+  height: 37px;
+  border: 2px solid #00000033;
+  border-radius: 50%;
+}
+
 .section__two-filter_catalog {
   width: 247px;
   height: 160px;
@@ -231,14 +274,17 @@ li {
   letter-spacing: 0%;
 }
 
-.section__one-container_Size p {
-  width: 89px;
-  height: 39px;
+.section__one-container_Size a {
+  max-height: 39px;
   padding: 10px 20px;
   border-radius: 62px;
   gap: 12px;
+  border: 1px solid #F0F0F0;
   display: flex;
+  color: #00000099;
 }
+
+
 
 .section__two-filter_Dress-Style-common {
   width: 247px;
@@ -264,7 +310,7 @@ li {
   padding: 16px 54px;
   gap: 12px;
   border-radius: 62px;
-  background-color: #000000     ;
+  background-color: #000000;
   color: #ffffff;
   font-weight: 500;
   font-size: 14px;
