@@ -113,7 +113,7 @@ li {
 }
 
 .section__two-container {
-  background-image: url("./images/ktoto.svg");
+  background-image: url("../images/ktoto.svg");
   height: 663px;
   width: 1440px;
 }
@@ -374,7 +374,7 @@ li {
 .container__five-img_one {
   width: 407px;
   height: 289px;
-  background-image: url(./images/Casual.svg);
+  background-image: url(../images/Casual.svg);
   border-radius: 20px;
   font-size: 36px;
   font-weight: 700;
@@ -387,7 +387,7 @@ li {
 .container__five-img_two {
   width: 664px;
   height: 289px;
-  background-image: url(./images/Formal.svg);
+  background-image: url(../images/Formal.svg);
   border-radius: 20px;
   font-size: 36px;
   font-weight: 700;
@@ -409,7 +409,7 @@ li {
 .container__five-img_three {
   width: 684px;
   height: 289px;
-  background-image: url(./images/Party.svg);
+  background-image: url(../images/Party.svg);
   border-radius: 20px;
   font-size: 36px;
   font-weight: 700;
@@ -422,7 +422,7 @@ li {
 .container__five-img_four {
   width: 407px;
   height: 289px;
-  background-image: url(./images/Gym.svg);
+  background-image: url(../images/Gym.svg);
   border-radius: 20px;
   font-size: 36px;
   font-weight: 700;
