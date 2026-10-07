@@ -274,17 +274,21 @@ li {
   letter-spacing: 0%;
 }
 
+.section__one-container_Size{
+  max-width: 247px;
+  max-height: 227px;
+  gap: 8px;
+  margin-top: 20px;
+}
+
 .section__one-container_Size a {
+  max-width: 98px;
   max-height: 39px;
   padding: 10px 20px;
   border-radius: 62px;
-  gap: 12px;
   border: 1px solid #F0F0F0;
-  display: flex;
   color: #00000099;
 }
-
-
 
 .section__two-filter_Dress-Style-common {
   width: 247px;
